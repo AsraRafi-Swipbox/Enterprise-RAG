@@ -1,0 +1,15 @@
+numpy
+scipy
+scikit-learn
+fastapi
+uvicorn
+pydantic
+pyjwt
+# dev / evaluation report
+pytest
+httpx
+matplotlib
+# optional
+# anthropic              # LLM generator
+# spacy                  # + en_core_web_md wheel: word-vector scorer used in one ablation row
+# sentence-transformers  # neural embedder adapter

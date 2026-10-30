@@ -1,0 +1,23 @@
+[project]
+name = "enterprise-rag"
+version = "1.0.0"
+description = "Access-controlled enterprise RAG with hybrid retrieval, verified citations and a reproducible evaluation harness"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "scikit-learn", "fastapi", "uvicorn", "pydantic", "pyjwt"]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx", "matplotlib"]
+semantic = ["spacy"]        # + en_core_web_md wheel, see README
+llm = ["anthropic"]
+neural = ["sentence-transformers"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

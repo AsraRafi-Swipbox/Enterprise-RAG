@@ -1,0 +1,106 @@
+[
+  {
+    "user_id": "alice",
+    "name": "Alice (Finance analyst)",
+    "clearance": "CONFIDENTIAL",
+    "departments": [
+      "Finance"
+    ],
+    "groups": []
+  },
+  {
+    "user_id": "bob",
+    "name": "Bob (HR business partner)",
+    "clearance": "RESTRICTED",
+    "departments": [
+      "HR"
+    ],
+    "groups": []
+  },
+  {
+    "user_id": "carol",
+    "name": "Carol (Security engineer)",
+    "clearance": "RESTRICTED",
+    "departments": [
+      "Security"
+    ],
+    "groups": [
+      "sre-oncall"
+    ]
+  },
+  {
+    "user_id": "dave",
+    "name": "Dave (SRE)",
+    "clearance": "CONFIDENTIAL",
+    "departments": [
+      "Engineering"
+    ],
+    "groups": [
+      "sre-oncall"
+    ]
+  },
+  {
+    "user_id": "erin",
+    "name": "Erin (Corporate counsel)",
+    "clearance": "RESTRICTED",
+    "departments": [
+      "Legal"
+    ],
+    "groups": [
+      "privacy-office",
+      "vendor-mgmt"
+    ]
+  },
+  {
+    "user_id": "frank",
+    "name": "Frank (Account executive)",
+    "clearance": "CONFIDENTIAL",
+    "departments": [
+      "Sales"
+    ],
+    "groups": []
+  },
+  {
+    "user_id": "grace",
+    "name": "Grace (Contractor)",
+    "clearance": "PUBLIC",
+    "departments": [],
+    "groups": []
+  },
+  {
+    "user_id": "henry",
+    "name": "Henry (General employee)",
+    "clearance": "INTERNAL",
+    "departments": [],
+    "groups": []
+  },
+  {
+    "user_id": "ivan",
+    "name": "Ivan (Procurement lead)",
+    "clearance": "RESTRICTED",
+    "departments": [
+      "Procurement"
+    ],
+    "groups": [
+      "vendor-mgmt"
+    ]
+  },
+  {
+    "user_id": "judy",
+    "name": "Judy (CISO)",
+    "clearance": "RESTRICTED",
+    "departments": [
+      "Engineering",
+      "Finance",
+      "HR",
+      "Legal",
+      "Sales",
+      "Security"
+    ],
+    "groups": [
+      "privacy-office",
+      "sre-oncall",
+      "vendor-mgmt"
+    ]
+  }
+]
